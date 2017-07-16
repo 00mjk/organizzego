@@ -31,7 +31,7 @@ func main() {
 
 ## Actions already implemented
 
-* Statement Creation
+* Statement Creation -> organizzeApi.CreateStatement(statement)
 
 
 ## Contributing
