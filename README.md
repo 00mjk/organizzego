@@ -6,7 +6,7 @@ Go implementation of Organizze's API (https://www.organizze.com.br)
 
 Auth:
 
-* Username: Your Organizze e-mail
+* User name: Your Organizze e-mail
 * Api Token: The api token retrieved by Organizze at https://app.organizze.com.br/configuracoes/api-keys
 * User agent: This will be used by Organizze to know who is behind the request. Follow the template "You (you@yourdomain.com)"
 
