@@ -1,4 +1,4 @@
-package main
+package organizzego
 
 import (
 	"github.com/B0go/organizzego/model"
