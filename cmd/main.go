@@ -8,5 +8,12 @@ import (
 func main() {
 	organizzeApi := organizzego.OrganizzeApi{"username", "api-token", "You (you@yourdomain.com)"}
 
-	organizzeApi.CreateStatement(model.Statement{"blah2", "2017-07-16", 10})
+	installmentsAttributes := model.InstallmentsAttributes{"monthly", 3}
+
+	statement2 := model.Statement{}.New("blah2", "2017-07-19", 10, false)
+	statement2.CategoryID = 10
+	statement2.AccountID = 10
+	statement2.InstallmentsAttributes = &installmentsAttributes
+
+	organizzeApi.CreateStatement(statement2)
 }
