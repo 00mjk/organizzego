@@ -10,24 +10,9 @@ Auth:
 * Api Token: The api token retrieved by Organizze at https://app.organizze.com.br/configuracoes/api-keys
 * User agent: This will be used by Organizze to know who is behind the request. Follow the template "You (you@yourdomain.com)"
 
-The OrganizzeApi struct centralize all API actions already implemented. After building it passing the auth data, simply call the desired method as shown:
+The OrganizzeApi struct centralize all API actions already implemented. After building it passing the auth data, simply call the desired method as shown in file [main.go](https://github.com/B0go/organizzego/blob/master/cmd/main.go)
 
-```go
-package main
 
-import (
-	"github.com/B0go/organizzego"
-	"github.com/B0go/organizzego/model"
-)
-
-func main() {
-	organizzeApi := organizzego.OrganizzeApi{"username", "api-token", "You (you@yourdomain.com)"}
-
-        statement := model.Statement{"blah2", "2017-07-16", 10}
-
-	organizzeApi.CreateStatement(statement)
-}
-```
 
 ## Actions already implemented
 
