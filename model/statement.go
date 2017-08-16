@@ -6,6 +6,7 @@ type Statement struct {
 	AmountInCents          int                     `json:"amount_cents"`
 	Paid                   bool                    `json:"paid"`
 	AccountID              int                     `json:"account_id"`
+	CreditCardID           int                     `json:"credit_card_id"`
 	CategoryID             int                     `json:"category_id"`
 	RecurrenceAttributes   *RecurrenceAttributes   `json:"recurrence_attributes"`
 	InstallmentsAttributes *InstallmentsAttributes `json:"installments_attributes"`
