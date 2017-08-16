@@ -17,6 +17,8 @@ The OrganizzeApi struct centralize all API actions already implemented. After bu
 ## Actions already implemented
 
 * Statement Creation -> organizzeApi.CreateStatement(statement)
+* Accounts Search -> organizzeApi.FindAccounts()
+* CreditCard Search -> organizzeApi.FindCreditCards()
 
 
 ## Contributing
